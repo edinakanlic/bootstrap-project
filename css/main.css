@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+  font-family: "Arvo", serif !important; 
+}
+.height {
+  min-height: 100vh;
+}
+.title-underline {
+  width: 150px;
+  height: 8px;
+  margin: 0 auto;
+  /* background: blue!important; */
+}
+.height-80 {
+  min-height: 80vh !important;
+}
+
+.about-picture {
+  background: url(../img/about-bcg.jpg) center/cover no-repeat fixed;
+  /* background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-attachment: fixed; */
+}
+#filler,
+#progress {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/city.jpg) center/cover no-repeat fixed;
+}
+
+#review,
+#progress,
+#footer,
+#pricing,
+#modal{
+  font-family: 'Permanent Marker', cursive !important;
+}
